@@ -80,11 +80,15 @@ li:first-child {
 
 a {
   color: #40739e;
+  font-weight: normal;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 a:hover,
 a:active {
   color: #4d85b3;
+  background-color: transparent;
 }
 
 img {
