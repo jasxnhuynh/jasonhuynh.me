@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+}
+
+#container {
+  width: 90%;
+  max-width: 700px;
+  margin: 4rem auto;
+}
+
+nav {
+  margin: 1rem 0 3rem;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+}
+
+nav a {
+  margin-right: 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+h1,
+h2,
+h3 {
+  color: #333;
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.global-title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #222;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+h2,
+h3 {
+  margin: 2rem 0 1rem;
+}
+
+p,
+li {
+  font-size: 1rem;
+  line-height: 150%;
+  color: #444;
+  margin: 1.25rem 0;
+}
+
+li {
+  margin: 0.25rem 0 0 2.5rem;
+}
+
+li:first-child {
+  margin-top: 0;
+}
+
+a {
+  color: #40739e;
+}
+
+a:hover,
+a:active {
+  color: #4d85b3;
+}
+
+img {
+  max-width: 100%;
+}
+
+.avatar {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 4rem;
+  margin-right: 1.5rem;
+}
+
+.greeting-container {
+  display: flex;
+}
+
+.greeting-container h1 {
+  align-self: center;
+  margin: 0;
+  font-size: 1.5rem;
+}
