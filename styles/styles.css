@@ -95,15 +95,3 @@ img {
   margin: 0;
   font-size: 1.5rem;
 }
-
-.greeting-text {
-  font-size: 1.5rem;
-  display: block;
-  margin-top: -22px;
-}
-
-.greeting-links {
-  font-size: 1rem;
-  display: block;
-  margin-top: -16px;
-}
