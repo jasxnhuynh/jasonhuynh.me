@@ -102,7 +102,7 @@ img {
   display: flex;
 }
 
-.greeting-container h1 {
+.greeting-container h2 {
   align-self: center;
   margin: 0;
   font-size: 1.5rem;
