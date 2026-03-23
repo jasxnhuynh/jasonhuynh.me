@@ -4,6 +4,18 @@
   box-sizing: border-box;
 }
 
+.visually-hidden {
+  border: 0;
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 body {
   font-family: system-ui, Helvetica, Arial, sans-serif;
   background: #fff;
@@ -78,7 +90,7 @@ img {
   display: flex;
   align-items: flex-start;
   gap: 2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1.75rem;
 }
 
 .avatar {
@@ -109,21 +121,28 @@ img {
 }
 
 .experience-sections {
-  margin-top: 0;
-}
-
-.experience-group + .experience-group {
-  margin-top: 1rem;
-  padding-top: 1rem;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
   border-top: 1px solid #eaeaea;
 }
 
+.experience-group + .experience-group {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #eaeaea;
+}
+
+.about-heading,
 .experience-group .experience-heading {
-  font-size: 1.05rem;
+  font-size: 1.2rem;
   font-weight: 600;
   color: #333;
   margin: 0 0 0.75rem;
   letter-spacing: 0.01em;
+}
+
+.about-heading + p {
+  margin-top: 0.85rem;
 }
 
 .experience-item {
